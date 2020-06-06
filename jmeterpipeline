@@ -1,4 +1,1 @@
-node {
-  stage 'Run JMeter Test'
-  sh ./jmeter -n -t /home/etg-user/Desktop/PoC JMeter Script/Demo.jmx -l Testing.jtl'
-}
+Hello World

@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-  sh '/home/ubuntu/apache-jmeter-5.3/bin/jmeter.sh -n -t /home/etg-user/Desktop/PoC JMeter Script/Demo.jmx -l test.jtl'
+  sh '/Downloads/apache-jmeter-5.3/bin$ ./jmeter -n -t /home/etg-user/Desktop/PoC JMeter Script/Demo.jmx -l Testing.jtl'
 }

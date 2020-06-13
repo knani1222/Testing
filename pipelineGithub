@@ -19,7 +19,7 @@ file_names = [
     'test.jtl',
 
 ]
-commit_message = 'python update 2'
+commit_message = 'jenkins Integration'
 master_ref = repo.get_git_ref('heads/master')
 master_sha = master_ref.object.sha
 base_tree = repo.get_git_tree(master_sha)

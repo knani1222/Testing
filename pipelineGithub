@@ -1,5 +1,5 @@
 node {
   stage 'Testing Jenkins and Github Integration'
-  sh '/home/etg-user/Downloads/apache-jmeter-5.3/bin/./jmeter -n -t /home/etg-user/Downloads/apache-jmeter-5.3/bin/Demo.jmx -l https://github.com/knani1222/Testing/upload/master/test.jtl'
+  sh '/home/etg-user/Downloads/apache-jmeter-5.3/bin/./jmeter -n -t /home/etg-user/Downloads/apache-jmeter-5.3/bin/Demo.jmx -l cat>test.jtl'
 
 }

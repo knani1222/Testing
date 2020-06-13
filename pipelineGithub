@@ -1,9 +1,5 @@
 node {
   stage 'Testing Jenkins and Github Integration'
-  sh '/home/etg-user/Downloads/apache-jmeter-5.3/bin/./jmeter -n -t /home/etg-user/Downloads/apache-jmeter-5.3/bin/Demo.jmx -l test.jtl'
+  sh '/home/etg-user/Downloads/apache-jmeter-5.3/bin/./jmeter -n -t /home/etg-user/Downloads/apache-jmeter-5.3/bin/Demo.jmx -l /var/lib/jenkins/workspace/tutorial/test.jtl'
 
 }
-
-$ git add ./var/lib/jenkins/workspace/tutorial/test.jtl
-$ git commit -m “Done”
-$ git push
